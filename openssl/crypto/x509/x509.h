@@ -1009,7 +1009,7 @@ int 		X509_NAME_get_text_by_NID(X509_NAME *name, int nid,
 int		X509_NAME_get_text_by_OBJ(X509_NAME *name, ASN1_OBJECT *obj,
 			char *buf,int len);
 
-/* NOTE: you should be passsing -1, not 0 as lastpos.  The functions that use
+/* NOTE: you should be passing -1, not 0 as lastpos.  The functions that use
  * lastpos, search after that position on. */
 int 		X509_NAME_get_index_by_NID(X509_NAME *name,int nid,int lastpos);
 int 		X509_NAME_get_index_by_OBJ(X509_NAME *name,ASN1_OBJECT *obj,
